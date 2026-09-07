@@ -7,8 +7,8 @@
 DFRobot_QMC5883 compass(&Wire, 0x0D);
 Servo servoFL,servoFR,servo,bL,servoBR;
 // Replace with your network credentials
-const char* ssid = "Nilaj's Moto";
-const char* password = "12345678";
+const char* ssid = "";
+const char* password = "";
 
 WebServer server(80);
 MPU6050 mpu;
